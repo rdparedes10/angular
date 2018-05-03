@@ -1,0 +1,13 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+    <h1>
+        {{title }}, {{autor}}, Count = {{count}}
+    </h1>
+    <app-rogers></app-rogers>
+    <button (click)="count = count + 1">Click me</button>
+    <img [src]="imgSource">
+
+    <input [disabled]="enabled" type="text" />
+
+    <button (click)="enabled = !enabled">Enable or disable Input</button>
+</div>
